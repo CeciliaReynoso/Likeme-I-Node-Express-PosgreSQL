@@ -21,6 +21,7 @@ function App() {
   };
 
   const agregarPost = async () => {
+    let likes = 0
     const post = { titulo, img: imgSrc, descripcion, likes: 0 };
 
     // Enviar el post a la base de datos
